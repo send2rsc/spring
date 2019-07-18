@@ -31,10 +31,10 @@ Create a project
         -DgroupId=my.groupid \
         -DartifactId=my-artifactId \
         -Dversion=version \
-        -DarchetypeRepository=http://kolorobot.github.io/spring-mvc-quickstart-archetype
+        -DarchetypeRepository=https://github.com/send2rsc/spring
 ```
 
-Note: The above command will bootstrap a project using the archetype published here: http://kolorobot.github.io/spring-mvc-quickstart-archetype
+Note: The above command will bootstrap a project using the archetype published here: https://github.com/send2rsc/spring
 
 Run the project
 ----------------
@@ -64,7 +64,7 @@ Create a new project in IntelliJ
 * Set `Group Id` to `pl.codeleak`
 * Set `Artifact Id` to `spring-mvc-quickstart`
 * Set `Version` to `5.0.1`
-* Set `Repository` to `http://kolorobot.github.io/spring-mvc-quickstart-archetype`
+* Set `Repository` to `https://github.com/send2rsc/spring`
 * Click next and create the project
 
 Note: If you would like to create a project using archetype published in your local repository, skip repository field and make sure it is installed locally (see below).
@@ -80,7 +80,7 @@ Creating a new project in Spring Tool Suite
 * Set `Archetype Group Id` to `pl.codeleak`
 * Set `Archetype Artifact Id` to `spring-mvc-quickstart`
 * Set `Archetype Version` to `5.0.1`
-* Set `Repository URL` to `http://kolorobot.github.io/spring-mvc-quickstart-archetype`
+* Set `Repository URL` to `https://github.com/send2rsc/spring`
 * Click `OK` so the Archetype is added to the list
 * Click `Next` and fill in `Group Id`, `Artifact Id` and `Version` of your new project
 
@@ -95,8 +95,8 @@ Install archetype locally
 To install the archetype in your local repository execute the following commands:
 
 ```bash
-    git clone https://github.com/kolorobot/spring-mvc-quickstart-archetype.git
-    cd spring-mvc-quickstart-archetype
+    git clone https://github.com/send2rsc/spring.git
+    cd spring
     mvn clean install
 ```
 
