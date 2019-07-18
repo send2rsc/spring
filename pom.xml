@@ -7,7 +7,7 @@
     <packaging>maven-archetype</packaging>
     <name>Spring MVC Maven Archetype: Quickstart</name>
     <description>Archetype for creating Spring MVC web application</description>
-    <url>https://github.com/kolorobot/spring-mvc-quickstart-archetype</url>
+    <url>https://github.com/send2rsc/spring</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
